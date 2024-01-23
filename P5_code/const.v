@@ -1,0 +1,19 @@
+`define func 5:0
+`define opcode 31:26
+`define rs 25:21
+`define base 25:21
+`define rt 20:16
+`define rd 15:11
+`define imm 15:0
+`define offset 15:0
+`define index 25:0
+
+`define add 6'b100000//
+`define sub 6'b100010//
+`define ori 6'b001101
+`define lw 6'b100011
+`define sw 6'b101011
+`define beq 6'b000100
+`define lui 6'b001111
+`define jal 6'b000011
+`define jr 6'b001000//
